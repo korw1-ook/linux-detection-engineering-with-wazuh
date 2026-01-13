@@ -1,1 +1,9 @@
+# Detected invalid username attempt
 
+<rule id="120002" level="8">
+  
+    <match>Invalid user</match>
+    <match>sshd</match>
+
+  <description>SSH invalid username detected</description>
+</rule>
