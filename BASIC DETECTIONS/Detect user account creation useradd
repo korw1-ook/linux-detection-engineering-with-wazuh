@@ -1,0 +1,4 @@
+<rule id="120061" level="8">
+  <match>useradd</match>
+  <description>New user account creation event detected</description>
+</rule>
