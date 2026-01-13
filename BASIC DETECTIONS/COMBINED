@@ -1,0 +1,48 @@
+<group name="korw-linux-rules">
+
+  <rule id="800000" level="3">
+    <match>korw-testing</match>
+    <description>Korw test rule loaded</description>
+    <group>korw,test</group>
+  </rule>
+
+  <rule id="120001" level="9">
+    <regex>Failed password for .+ from</regex>
+    <description>SSH failed login attempt (username extracted)</description>
+  </rule>
+
+  <rule id="120002" level="8">
+    <match>Invalid user</match>
+    <match>sshd</match>
+    <description>SSH invalid username detected</description>
+  </rule>
+
+  <rule id="120003" level="8">
+    <regex>Accepted password for .+ from</regex>
+    <description>SSH successful login</description>
+  </rule>
+
+  <rule id="120004" level="8">
+    <match>sudo:</match>
+    <match>COMMAND=</match>
+    <description>Sudo command executed</description>
+  </rule>
+
+  <rule id="120005" level="12">
+    <match>Accepted password for root</match>
+    <match>sshd</match>
+    <description>Root login detected over SSH</description>
+  </rule>
+
+  <rule id="120006" level="10">
+    <match>sudo</match>
+    <match>usermod</match>
+    <description>User added to sudoers</description>
+  </rule>
+
+  <rule id="120007" level="8">
+    <match>useradd</match>
+    <description>New user account creation event detected</description>
+  </rule>
+
+</group>
