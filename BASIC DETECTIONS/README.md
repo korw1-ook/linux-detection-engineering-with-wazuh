@@ -24,12 +24,10 @@ common things attackers do when they get into a Linux machine.
 Each one of these events *can* be normal,
 but they are also often used in real attacks.
 
-here are some screenshot after testing these codes
+here are some screenshot after testing these codes. You can see the custom rules we wrote there
 
 
-<p align="left">
-  <img src="https://github.com/korw1-ook/linux-detection-engineering-with-wazuh/blob/main/pictures/basic_detection/wazuh.png?raw=true" width="500">
-</p>
+
 <p align="center">
   <img src="https://github.com/korw1-ook/linux-detection-engineering-with-wazuh/blob/main/pictures/basic_detection/wazuh_logs.png?raw=true" width="500">
 </p>
