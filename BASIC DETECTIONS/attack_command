@@ -1,0 +1,38 @@
+🚫 Failed SSH login (wrong user)
+ssh wronguser@TARGET-IP
+
+❌ Invalid username
+ssh invalid@TARGET-IP
+
+✅ Successful SSH login
+use real user credential username , ip and password
+
+ssh realuser@TARGET-IP
+
+after sucessfull login to victim computer
+🔐 Run a sudo command
+sudo whoami
+
+🧨 Try root (only works if allowed)
+ssh root@TARGET-IP
+
+👤 Create user
+on target laptop
+
+sudo useradd attackertest
+
+
+➕ Add user to sudo
+sudo usermod -aG sudo attackertest
+
+
+🔑 Change password
+echo "attackertest:NewPass123" | sudo chpasswd
+
+🗑 Optional cleanup
+if you want to delete the created user
+
+sudo userdel -r attackertest
+
+
+🕵️‍♂️NOW CHECK WAZUH BOOM!!! 
