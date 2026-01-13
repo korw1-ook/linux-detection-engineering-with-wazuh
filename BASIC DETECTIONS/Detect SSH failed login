@@ -1,6 +1,6 @@
 #Detect SSH failed login
 
-<rule id="120003" level="9">
+<rule id="120001" level="9">
   <regex>Failed password for .+ from</regex>
   <description>SSH failed login attempt (username extracted)</description>
 </rule>
