@@ -1,1 +1,6 @@
+<rule id="120004" level="8">
+  <match>sudo:</match>
+  <match>COMMAND=</match>
+  <description>Sudo command executed</description>
+</rule>
 
