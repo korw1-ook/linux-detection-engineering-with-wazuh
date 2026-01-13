@@ -1,1 +1,7 @@
+#Detect successful SSH login
 
+<rule id="120003" level="8">
+  
+    <regrex>Accepted password for .+ from</regrex>
+  <description>SSH sucessfull login</description>
+</rule>
