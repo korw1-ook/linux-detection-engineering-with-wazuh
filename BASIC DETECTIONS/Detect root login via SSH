@@ -1,0 +1,5 @@
+<rule id="120005" level="12">
+  <match>Accepted password for root</match>
+  <match>sshd</match>
+  <description>Root login detected over SSH </description>
+</rule>
