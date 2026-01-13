@@ -1,0 +1,5 @@
+<rule id="120006" level="10">
+  <match>sudo</match>
+  <match>usermod</match>
+  <description>User added to sudoers </description>
+</rule>
