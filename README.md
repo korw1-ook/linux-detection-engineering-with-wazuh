@@ -41,7 +41,5 @@ they usually:
 
 My rules detect every one of those steps.
 
----
 
-## 📁 Folder Layout
 
