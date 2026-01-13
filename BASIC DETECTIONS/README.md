@@ -33,6 +33,14 @@ here are some screenshot after testing these codes. You can see the custom rules
 </p>
 
 
+
+
+
+
+📸 YOU CAN SEE MORE PHOTOS OF BASIC DETECTION IN PICTURES/BASIC_DETECTION DIRECTORY..
+
+
+
 ---
 
 ## 🧩 Why I Picked These
