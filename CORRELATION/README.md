@@ -1,5 +1,5 @@
 
-#🔥 My Wazuh SSH Detection Rules 
+# 🔥My Wazuh SSH Detection Rules 
 
 I made some custom rules in Wazuh to catch real attacks on SSH, not just random password fails.
 ----
