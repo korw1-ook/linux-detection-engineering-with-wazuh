@@ -1,0 +1,9 @@
+##This rule is for sucess login from country you dont trust 
+replace your save country here i gave IN oly
+
+<rule id="120014" level="12">
+  <if_sid>5715</if_sid> 
+  <not_geoip>IN</not_geoip>
+  <description>SSH login success from unusual country</description>
+  <group>ssh,geoip,anomaly,compromise</group>
+</rule>
