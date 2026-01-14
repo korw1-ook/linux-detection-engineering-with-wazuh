@@ -1,0 +1,10 @@
+##Alert when sudo is run AFTER login from same IP
+note that 120012 sid is breach moment alert
+
+<rule id="120013" level="12" timeframe="900">
+  <if_sid>5402</if_sid>   
+  <if_matched_sid>120012</if_matched_sid>
+  <same_source_ip>true</same_source_ip>
+  <description>SSH login → sudo used immediately (possible privilege escalation)</description>
+  <group>ssh,privilege_escalation,linux</group>
+</rule>
