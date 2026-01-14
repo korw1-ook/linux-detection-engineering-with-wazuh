@@ -1,0 +1,12 @@
+## SSH success login after multiple failed attempt in one hour
+note that 120010 sid is for brute force detected from same ip 
+
+
+
+<rule id="120012" level="12" frequency="1" timeframe="3600">
+  <if_sid>5715</if_sid> 
+  <if_matched_sid>120010</if_matched_sid>
+  <same_source_ip>true</same_source_ip>
+  <description>SSH SUCCESS after failed attempts (possible credential compromise)</description>
+  <group>ssh,breach,compromise,linux</group>
+</rule>
